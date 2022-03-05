@@ -65,11 +65,12 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     border-radius: 4px;
     cursor: pointer;
-    padding: 15px 30px;
+    padding: 10px 20px;
     margin: 2px 4px;
     background-color: cornsilk;
-    text-align: center;
+    text-align:center
     font-size: 16px;
+    letter-spacing: 2px;
     color: #1c4f2a
 }
 
