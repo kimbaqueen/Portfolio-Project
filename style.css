@@ -11,31 +11,33 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #1c4f2a;
     color: cornsilk;
     display: flex;
-    justify-content:stretch;
-    align-items:center;
+    justify-content: space-around;
+    align-items: center;
     margin: 0;
     padding: 10px;
     position: fixed;
     top: 0;
     width: 100%;
+    height: 60px;
 }
 
 .left-column {
     display: flex;
     align-items: center;
     margin: 0;
+    height: 60px;
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .logo img{
-    width: 150px;
-    height: 150px;
     margin: 0px;
+    object-fit: contain;
+    height: 80px;
 }
 
 .link-wrapper {
