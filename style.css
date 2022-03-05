@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Jost', sans-serif;
+}
+
+.header-wrapper {
+    background-color: #1c4f2a;
+    color: cornsilk;
+    display: flex;
+    justify-content:stretch;
+    align-items:center;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.left-column {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-content: stretch;
+    align-items: flex-end;
+}
+
+.nav-link {
+    width: 60px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    color: cornsilk;
+    text-decoration: none;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #000;
+    letter-spacing: inherit;
+    text-decoration-style: dotted;
+}
+
+.button {
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 15px 30px;
+    margin: 2px 4px;
+    background-color: cornsilk;
+    text-align: center;
+    font-size: 16px;
+    color: #1c4f2a
+}
+
+.button:hover {
+    background-color: cornsilk;
+    color: #000;
+}
+
+.top-container {
+    background-color: cornsilk;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.second-container {
+    background-color: cornsilk;
+    color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    position: relative;
+    width: 100%;
+}
+.grid-container {
+    display: grid;
+    background-color: cornsilk;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+.griditem1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    }
+    
+.womenworking3-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.griditem2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: #fff;
+}
+
+.griditem3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #fff;
+}
+
+.plant3-img {
+    max-width: 100%;
+    height: auto;
+}
+.griditem4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.footer-wrapper {
+    background-color: #1c4f2a;
+    color: cornsilk;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    padding: 40px 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav-link-footer{
+    width: 60px;
+    text-align: right;
+    font-family: 'Jost', sans-serif;
+    color: cornsilk;
+    text-decoration: none;
+}
