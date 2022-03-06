@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
     letter-spacing: inherit;
     text-decoration-style: dotted;
+    cursor: pointer;
 }
 
 .button {
@@ -68,9 +69,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 20px;
     margin: 2px 4px;
     background-color: cornsilk;
-    text-align:center
+    text-align:center;
     font-size: 16px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: #1c4f2a
 }
 
