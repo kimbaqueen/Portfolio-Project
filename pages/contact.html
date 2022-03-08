@@ -20,11 +20,13 @@
     <header class="header-wrapper">
         <div class="left-column">
             <div class="logo">
-                <img src="../assets/BridgeHub-logo-white.png" alt="logo">
+                <a href="../index.html">
+                    <img src="../assets/BridgeHub-logo-white.png" alt="logo">
+                </a>
             </div>
         </div>
         <nav class="link-wrapper">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="../pages/../index.html">Home</a>
             <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Events</a>
             <a class="nav-link" href="#">Blog</a>
@@ -33,36 +35,51 @@
     </header>
 
     <div class="main-container">
-        <div class="top-container">
-            Get in touch!<br>_______________<br>
-            Fill out the form and we will get in touch as soon as we are able to.
+        <div>
+            <div>
+                <div class="text-block1">Get in touch!</div>
+                <div>
+                    <div class="text-block2">_______________</div>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                            <div class="text-block3">Fill out the form and we will get in touch as soon as we are
+                                able
+                                to.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="contact-form">
+                    <form class="form-grid-vertical">
+                        <div class="row">
+                            <label for="fname" placeholder="First Name"></label>
+                            <input type="text" id="fname" name="firstname" placeholder="First Name">
+                        </div>
+                        <div class="row">
+                            <label for="lname" placeholder="Last Name"></label>
+                            <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                        </div>
+                        <div class="row">
+                            <label for="contact" placeholder="Contact Number"></label>
+                            <input type="text" id="contact" name="number" placeholder="Contact Number">
+                        </div>
+                        <div class="row">
+                            <label for="email" placeholder="Email"></label>
+                            <input type="text" id="email" name="email" placeholder="Email">
+                        </div>
+                        <div class="row">
+                            <textarea id="message" name="message" placeholder=" Type your message here"
+                                style="height: 200px; width: 200px;" class="contact-form"></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
-
-        <form>
-            <div class="row">
-                <label for="fname" placeholder="First Name"></label>
-                <input type="text" id="fname" name="firstname" placeholder="First Name">
-            </div>
-            <div class="row">
-                <label for="lname" placeholder="Last Name"></label>
-                <input type="text" id="lname" name="lastname" placeholder="Last Name">
-            </div>
-            <div class="row">
-                <label for="contact" placeholder="Contact Number"></label>
-                <input type="text" id="contact" name="number" placeholder="Contact Number">
-            </div>
-            <div class="row">
-                <label for="email" placeholder="Email"></label>
-                <input type="text" id="email" name="email" placeholder="Email">
-            </div>
-            <div class="row">
-                <textarea id="message" name="message" placeholder="Type your message here"
-                    style="height: 200px;"></textarea>
-            </div>
-            <input type="submit" value="Submit">
-        </form>
     </div>
-
     <footer class="footer-wrapper">
         <nav class="link-wrapper">
             <a class="nav-link-footer" href="#">Home</a>

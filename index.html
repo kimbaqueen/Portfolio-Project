@@ -30,7 +30,9 @@
             <a class="nav-link" href="#">Events</a>
             <a class="nav-link" href="#">Blog</a>
         </nav>
-        <button type="button" class="button" a href="/pages/contact.html">Contact</button>
+        <a href="pages/contact.html">
+            <button type="button" class="button" a href="/pages/contact.html">Contact</button>
+        </a>
     </header>
 
     <!-- MAIN -->
@@ -38,25 +40,49 @@
         <div class="top-container">
             mission statement
         </div>
-        <!-- GRID 2x2-->
-        <div class="grid-container">
-            <div class="griditem1"><img src="assets/plant3.jpeg" class="plant3-img"></div>
-            <div class="griditem2">2</div>
-            <div class="griditem3">3</div>
-            <div class="griditem4"><img src="assets/womenworking3.jpeg" class="womenworking3-img"></div>
-        </div>
-        <!-- GRID BLOG FORM -->
         <div class="second-container">
-            <form>
-                <div> <label> News & Insight | Subscribe for updates.
-                        <input type="text" value="Email Address">
-                    </label>
+            <!-- GRID 2x2-->
+            <div class="grid-container">
+                <div class="griditem1"><img src="assets/plant3.jpeg" class="plant3-img"></div>
+                <div class="griditem2">2</div>
+                <div class="griditem3">3</div>
+                <div class="griditem4"><img src="assets/womenworking3.jpeg" class="womenworking3-img"></div>
+            </div>
+            <!-- GRID BLOG FORM -->
+            <div class="bottom-container">
+                <div class="container-small">
+                    <div class="justify-content-center">
+                        <h4 class="medium-heading">News & Insight | Subscribe for updates.</h4>
+                    </div>
                 </div>
-                <!-- Submit Button -->
-                <div>
-                    <input type="submit" value="Subscribe">
+                <form id="email-form" name="email-form" method="get" class="form-grid-vertical" aria-label="Email Form">
+                    <input type="email" class="email-input" maxlength="256" name="Email-Address"
+                        data-name="Email-Address" placeholder="Email Address" id="Email-Address" required>
+                    <input type="submit" value="Subscribe" class="Email-Submit-Button">
+                </form>
+                <div class="form-success" tabindex="-1" role="region" aria-label="Email Form Success">
+                    <div>Thank You! Your Submission has been received!</div>
+                    <div class="form-error" tabindex="-1" role="region" aria-label="Email Form Failure">Oops! Something
+                        went
+                        wrong. Form not submitted.</div>
                 </div>
-            </form>
+                <div class="small-blog-container">
+                    <div role="list" class="blog-list">
+                        <div role="listitem" class="blog-item">
+                            <a href="#" class="blog-link w-inline-block">
+                                <img src="assets/women1.jpeg" alt="blog-image" class="blog-thumbnail">
+                                <div class="blog-post-meta">
+                                    <div class="text-block-6">TBD Blog date</div>
+                                    <div> | </div>
+                                    <div class="text-block-7">2 min</div>
+                                    <div class="text-block-8">read</div>
+                                </div>
+                                <h4 class="no-bottom-margin">Blog Title</h4>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <!-- FEATURES -->
