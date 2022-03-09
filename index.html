@@ -21,7 +21,8 @@
     <header class="header-wrapper">
         <div class="left-column">
             <div class="logo">
-                <img src="assets/Bridgehub-logo.png" alt="logo">
+                <a href="index.html"><img src="assets/Bridgehub-logo.png" alt="logo">
+                </a>
             </div>
         </div>
         <nav class="link-wrapper">
@@ -38,35 +39,41 @@
     <!-- MAIN -->
     <main>
         <div class="top-container">
-            mission statement
+            <h1 class="headline1">Creating connections where they matter most</h1>
+            <div class="divider">_______________</div>
+            <h2 class="headline2">Helping others navigate an unconventional path</h2>
         </div>
-        <div class="second-container">
-            <!-- GRID 2x2-->
-            <div class="grid-container">
-                <div class="griditem1"><img src="assets/plant3.jpeg" class="plant3-img"></div>
-                <div class="griditem2">2</div>
-                <div class="griditem3">3</div>
-                <div class="griditem4"><img src="assets/womenworking3.jpeg" class="womenworking3-img"></div>
-            </div>
-            <!-- GRID BLOG FORM -->
-            <div class="bottom-container">
-                <div class="container-small">
-                    <div class="justify-content-center">
-                        <h4 class="medium-heading">News & Insight | Subscribe for updates.</h4>
+    </main>
+    <!-- GRID 2x2-->
+    <div class="second-container">
+        <div class="grid-container">
+            <div class="griditem1"><img src="assets/plant3.jpeg" class="plant3-img"></div>
+            <div class="griditem2">2</div>
+            <div class="griditem3">3</div>
+            <div class="griditem4"><img src="assets/womenworking3.jpeg" class="womenworking3-img"></div>
+        </div>
+    </div>
+    <!-- GRID BLOG FORM -->
+    <div class="bottom-container">
+        <div>
+            <div>
+                <div class="container-small class=" griditem5">
+                    <div>
+                        <div class="justify-content-center">
+                            <h4 class="medium-heading">News & Insight | Subscribe for updates.</h4>
+                            <form id="email-form" name="email-form" method="get" class="form-grid-vertical"
+                                aria-label="Email Form">
+                                <input type="email" class="email-input" maxlength="256" name="Email-Address"
+                                    data-name="Email-Address" placeholder="Email Address" id="Email-Address" required>
+                                <input type="submit" value="Subscribe" class="Email-Submit-Button">
+                            </form>
+                        </div>
                     </div>
                 </div>
-                <form id="email-form" name="email-form" method="get" class="form-grid-vertical" aria-label="Email Form">
-                    <input type="email" class="email-input" maxlength="256" name="Email-Address"
-                        data-name="Email-Address" placeholder="Email Address" id="Email-Address" required>
-                    <input type="submit" value="Subscribe" class="Email-Submit-Button">
-                </form>
-                <div class="form-success" tabindex="-1" role="region" aria-label="Email Form Success">
-                    <div>Thank You! Your Submission has been received!</div>
-                    <div class="form-error" tabindex="-1" role="region" aria-label="Email Form Failure">Oops! Something
-                        went
-                        wrong. Form not submitted.</div>
-                </div>
-                <div class="small-blog-container">
+            </div>
+
+            <div>
+                <div class="small-blog-container" class="griditem6">
                     <div role="list" class="blog-list">
                         <div role="listitem" class="blog-item">
                             <a href="#" class="blog-link w-inline-block">
@@ -78,13 +85,13 @@
                                     <div class="text-block-8">read</div>
                                 </div>
                                 <h4 class="no-bottom-margin">Blog Title</h4>
+                            </a>
                         </div>
-                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
     <!-- FEATURES -->
     <section>
         <div>
@@ -99,10 +106,9 @@
             <a class="nav-link-footer" href="#">About</a>
             <a class="nav-link-footer" href="#">Events</a>
             <a class="nav-link-footer" href="#">Blog</a>
-            <a class="nav-link-footer" href="#">Contact</a>
+            <a class="nav-link-footer" href="pages/contact.html">Contact</a>
         </nav>
     </footer>
-
 </body>
 
 </html>
