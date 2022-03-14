@@ -137,7 +137,7 @@ input[type=submit] {
         cursor: pointer;
       } 
 input[type=submit]:hover {
-        background-color: #45a049;
+    background-image: linear-gradient(to right, #21803a86 3%, #f3ed96a8 65%, #21803a86 97%);
       }
 
 .footer-wrapper {
