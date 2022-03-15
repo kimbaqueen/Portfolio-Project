@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Jost', sans-serif;
     width: 100%;
-    right: 0;
+    /* right: 0; */
     background-color: #fff;
 }
 
@@ -199,8 +199,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
-    width: 100%;
+    padding-left: inherit;
+    width: inherit;
     margin-bottom: 0px;
     margin-right: inherit;
 }
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction:column;
     justify-content: center;
     align-content: center;
-    /* padding-left: 20px; */
+    text-align: center;
     font-size: 18pt;
 }
 
@@ -233,20 +233,21 @@ h1, h2, h3, h4, h5, h6 {
 .Email-Submit-Button{
     height: inherit;
     background-color: #21803a86;
-    padding: 10px 20px;
-    text-align: inherit;
-    justify-content: inherit;
+    padding: 5px 20px;
+    text-align: center;
+    justify-content: center;
     border-radius: 4px;
     border: none;
     color: white;
 }
+
 .blog-container {
     display: flex;
     justify-content: left;
     align-items: center;
     align-content: center;
-    margin-top: 20px;
-    padding: 0px;
+    margin-top: 10px;
+    padding: inherit;
     width: inherit;
 }
 
@@ -257,28 +258,26 @@ h1, h2, h3, h4, h5, h6 {
 
 .blog-link{
     display: flex;
+    flex-direction: column;
     font-family: 'Jost', sans-serif;
     text-decoration: none;
     color: #000;
-    text-align:center;
+    text-align: left;
     justify-content: space-between;
     padding-left: 40px;
 }
 
 .medium-heading{
     display: flex;
-    justify-content: center;
-    text-align: center;
     font-weight: bolder;
     font-size: 16pt;
+    font-family: 'Noto Serif Display', serif;
+    letter-spacing: 2px;
 }
 
 .blog-text{
     display: flex;
-    text-align: center;
-    justify-content: center;
     font-size: 12pt;
-    margin-left: 20px;
 }
 
 .footer-wrapper {
@@ -295,6 +294,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 90px;
 }
 
+.footer-logo{
+    height: 80px;
+}
 .nav-link-footer{
     width: 60px;
     text-align: right;
