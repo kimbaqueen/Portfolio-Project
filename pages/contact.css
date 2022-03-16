@@ -147,7 +147,7 @@ input[type=submit]:hover {
     justify-content: space-around;
     align-items:flex-end;
     padding: 40px 100px;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
 }

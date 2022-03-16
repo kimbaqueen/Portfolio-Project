@@ -34,9 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo img{
-    margin: 0px;
-    object-fit: contain;
-    height: 80px;
+    object-fit: fill;
+    height: 75px;
 }
 
 .link-wrapper {
@@ -92,11 +91,95 @@ h1, h2, h3, h4, h5, h6 {
 
 .top-container {
     background-image: url(../assets/handsin.jpeg);
-    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    height: 475px;
+    z-index: -1;
+    position: relative;
 }
 
+.bio-pic img {
+    border-radius: 360px;
+    height: 400px;
+    padding: 20px;
+}
 
+.bio-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 20px 20px 10px 90px;
+}
 
+.bio-header {
+    display: inherit;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 45px;
+    padding-top: 80px;
+    font-family: 'Noto Serif Display', serif;
+    font-size: 28pt;
+}
+
+.name-text {
+    color: #2dbb53d7;
+}
+
+.header-2 {
+    font-family: 'Jost', sans-serif;
+    padding: 20px 50px 10px 45px;
+    font-size: 23pt;
+}
+
+.everything-text {
+    font-weight: bolder;
+}
+.intro-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 18pt;
+}
+.about-text {
+    display: inline-block;
+    padding: 45px;
+    width: 80%;
+    justify-content: end;
+    margin-right: 0;
+}
+
+.second-paragraph {
+    display: inline-flex;
+    width: 75%;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 175px;
+    font-size: 18pt;
+}
+
+.what-if {
+    font-family: 'Noto Serif Display', serif;
+}
+
+.do-better {
+    color: #2dbb53d7;
+    font-weight: bold;
+    font-size: 23pt;
+}
+
+.social-text {
+    font-size: 23pt;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.social-media-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
 
 .footer-wrapper {
     background-color: #1c4f2a;
@@ -105,22 +188,23 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     align-items:flex-end;
     padding: 30px 60px;
-    position: fixed;
+    position: static;
     bottom: 0;
-    width: 100%;
+    width: inherit;
     height: 60px;
 }
 
 .footer-leftcolumn {
     display: flex;
-    align-items: left;
-    margin: 0;
-    margin-left: 0;
-    height: 60px;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
 }
 
 .footer-leftcolumn img {
     height: 60px;
+    align-content: center;
+    object-position:inherit;
 }
 
 .nav-link-footer{
