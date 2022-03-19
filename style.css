@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link:hover {
-    color: #6ef5928f;
+    color: #fff;
     letter-spacing: 3px;
     text-decoration-style: none;
     cursor: pointer;
@@ -297,8 +297,8 @@ h1, h2, h3, h4, h5, h6 {
 .footer-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .footer-logo {
@@ -308,20 +308,24 @@ h1, h2, h3, h4, h5, h6 {
 .social-media-links {
     display: flex;
     justify-content: center;
-    align-content: center;
-    height: 40px;
-    /* width: auto; */
-    color: cornsilk;
+    flex-direction: row;
+    font-size: 15pt;
+    padding-left: 20px;
 }
 
-.fa-twitter {
+.icon-linkedin {
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
 }
 
-.fa-linkedin {
+.icon-twitter {
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
+}
+
+.icon-youtube {
+    cursor: pointer;
+    padding: 8px;
 }
 
 .nav-link-footer {
