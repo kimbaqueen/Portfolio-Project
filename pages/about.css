@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     height: 60px;
+    z-index: +1;
 }
 
 .left-column {
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    width: 60px;
+    padding-left: 10px;
     text-align: center;
     font-family: 'Jost', sans-serif;
     color: #000;
@@ -178,24 +179,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-media-container {
     display: flex;
-    padding: 20px;
+    padding-bottom: 30px;
     justify-content: center;
     flex-direction: row;
 }
 
 .icon-linkedin {
-    padding: 12px;
-    font-size: 23pt;
+    padding: 20px;
+    font-size: 32pt;
 }
 
 .icon-twitter {
-    padding: 12px;
-    font-size: 23pt;
+    padding: 20px;
+    font-size: 32pt;
 }
 
 .icon-youtube {
-    padding: 12px;
-    font-size: 23pt;
+    padding: 20px;
+    font-size: 32pt;
 }
 
 .footer-wrapper {
@@ -203,29 +204,28 @@ h1, h2, h3, h4, h5, h6 {
     color: cornsilk;
     display: flex;
     justify-content: space-around;
-    align-items:flex-end;
-    padding: 30px 60px;
+    align-items: center;
+    padding: inherit;
     position: static;
-    bottom: 0;
-    width: inherit;
-    height: 60px;
+    margin-bottom: inherit;
+    margin-right: inherit;
+    margin: inherit;
+    height: 120px;
 }
 
 .footer-leftcolumn {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 90px;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.footer-leftcolumn img {
-    height: 60px;
-    align-content: center;
-    object-position:inherit;
+.footer-logo {
+    height: 70px;
 }
 
 .nav-link-footer{
-    width: 60px;
+    padding-left: 10px;
     text-align: right;
     font-family: 'Jost', sans-serif;
     color: cornsilk;

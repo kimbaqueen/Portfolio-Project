@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     height: 60px;
+    z-index: +1;
 }
 
 .left-column {
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo img{
     object-fit: fill;
-    height: 75px;
+    height: 70px;
 }
 
 .link-wrapper {
@@ -45,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    width: 60px;
+    padding-left: 10px;
     text-align: center;
     font-family: 'Jost', sans-serif;
     color: #000;
@@ -87,4 +88,70 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 10px 20px #00000010, 0 6px 6px #00000010;
     margin: 8px 10px 12px;
     background-position: right center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    color: #000;
+    width: 100%;
+    position: relative;
+}
+
+.footer-wrapper {
+    background-color: #1c4f2a;
+    color: cornsilk;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: inherit;
+    position: static;
+    margin-bottom: inherit;
+    margin-right: inherit;
+    margin: inherit;
+    height: 120px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 15pt;
+    padding-left: 20px;
+}
+
+.icon-linkedin {
+    cursor: pointer;
+    padding: 8px;
+}
+
+.icon-twitter {
+    cursor: pointer;
+    padding: 8px;
+}
+
+.icon-youtube {
+    cursor: pointer;
+    padding: 8px;
+}
+
+.nav-link-footer {
+    padding-left: 10px;
+    text-align: right;
+    font-family: 'Jost', sans-serif;
+    color: #fff;
+    text-decoration: none;
 }

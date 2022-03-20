@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     width: 100%;
     height: 60px;
+    z-index: +1;
 }
 
 .left-column {
@@ -36,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo img{
     margin: 0px;
     object-fit: contain;
-    height: 80px;
+    height: 70px;
 }
 
 .link-wrapper {
@@ -113,8 +114,18 @@ h1, h2, h3, h4, h5, h6 {
 .form-grid-vertical {
     display: grid;
     justify-content: center;
-
 }
+.submit-button {
+    background-color: #fff;
+    border-color: #fff;
+    box-shadow: #fff;
+    background-image: none;
+    border-bottom: #fff;
+    border-right: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 input[type=text], select {
         width: 100%;
         padding: 12px 15px;
@@ -135,27 +146,65 @@ input[type=submit] {
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        font-family: 'Jost', sans-serif;
       } 
+
 input[type=submit]:hover {
     background-image: linear-gradient(to right, #21803a86 3%, #f3ed96a8 65%, #21803a86 97%);
       }
 
-.footer-wrapper {
-    background-color: #1c4f2a;
-    color: cornsilk;
-    display: flex;
-    justify-content: space-around;
-    align-items:flex-end;
-    padding: 40px 100px;
-    position: static;
-    bottom: 0;
-    width: 100%;
-}
-
-.nav-link-footer{
-    width: 60px;
-    text-align: right;
-    font-family: 'Jost', sans-serif;
-    color: cornsilk;
-    text-decoration: none;
-}
+    .footer-wrapper {
+        background-color: #1c4f2a;
+        color: cornsilk;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: inherit;
+        position: static;
+        margin-bottom: inherit;
+        margin-right: inherit;
+        margin: inherit;
+        height: 120px;
+    }
+    
+    .footer-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .footer-logo {
+        height: 70px;
+    }
+    
+    .social-media-links {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 15pt;
+        padding-left: 20px;
+    }
+    
+    .icon-linkedin {
+        cursor: pointer;
+        padding: 8px;
+    }
+    
+    .icon-twitter {
+        cursor: pointer;
+        padding: 8px;
+    }
+    
+    .icon-youtube {
+        cursor: pointer;
+        padding: 8px;
+    }
+    
+    .nav-link-footer {
+        width: 60px;
+        text-align: right;
+        font-family: 'Jost', sans-serif;
+        color: #fff;
+        text-decoration: none;
+    }
