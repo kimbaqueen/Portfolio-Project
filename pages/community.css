@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 1s cubic-bezier(.25,.8,.25,1);
     display: inline-block;
-    background-image: linear-gradient(to right, #21803a86 5%, #f3ed96a8 51%, #21803a86 95%);
+    background-image: linear-gradient(to right, #21803a86 5%, #fce6c5c5 51%, #21803a86 95%);
 }
 
 .button:hover {
@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-wrapper {
     background-color: #1c4f2a;
-    color: cornsilk;
+    color: #fce6c5c5;
     display: flex;
     justify-content: space-around;
     align-items: center;
