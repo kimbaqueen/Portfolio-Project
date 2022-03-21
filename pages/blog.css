@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     height: 60px;
 }
+
 .logo {
     display: flex;
     justify-content: center;
@@ -90,18 +91,94 @@ h1, h2, h3, h4, h5, h6 {
     background-position: right center;
 }
 
-
-
-.main-container {
+.top-container {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
     margin-top: 100px;
     color: #000;
-    width: 100%;
+    padding: 20px;
+    width: 40%;
+}
+
+.blog-flex-all {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-image {
+    overflow: hidden;
+    z-index: -1;
     position: relative;
 }
 
+.blog-flex-top {
+    margin-top: 100px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    padding: 20px;
+    padding-left: 30px;
+    width: 60%;
+}
+
+.blog-title {
+    font-size: 28pt;
+    font-family: 'Noto Serif Display', serif;
+}
+
+.blog-header2 {
+    font-size: 18pt;
+    font-family: 'Jost', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-text {
+    font-size: 14pt;
+    font-family: 'Jost', sans-serif;
+    width: 70%;
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    width: 70%;
+    text-align: justify;
+}
+
+.bottom-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 14pt;
+font-family: 'Jost', sans-serif;
+text-align: justify;
+padding: 20px 20px 40px 30px;
+}
+
+.everyone {
+    font-size: 18pt;
+    color: #2dbb53d7;
+    font-weight: bolder;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: left;
+    font-size: 18pt;
+    font-family: 'Noto Serif Display', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .footer-wrapper {
     background-color: #1c4f2a;

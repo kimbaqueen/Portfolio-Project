@@ -99,29 +99,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .top-container {
-    background-image: url(assets/different-path.jpg);
+    background-image: url(assets/map.jpg);
     background-repeat: no-repeat;
-    overflow:auto;
+    overflow: hidden;
     background-size: 100% 100%;
     background-position: center;
-    height: 350px;
+    height: 250px;
     z-index: -1;
     position: relative;
-    /* color: #000;
+    color: #000;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
     justify-content: center;
-    align-items: center; */
-    /* align-content: center; */
-    /* padding-top: 30px;
-    padding-bottom: 30px;
-    padding-right: 0px;
-    position: static; */
-    /* margin-right: 0px; */
+    align-items: center;
+    opacity: .7;
+    padding-bottom: 20px;
 }
 
 .headline1 {
     justify-content: center;
     font-family: 'Jost', sans-serif;
-    font-weight: bolder;
+    font-weight: ExtraBold 800;
     text-align: center;
     font-size: 28pt;
 }
@@ -130,16 +128,19 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     margin-bottom: 30px;
     color: #000;
+    font-family: 'Jost', sans-serif;
+    font-size: 23pt;
+    font-weight: ExtraBold 800;
     justify-content: center;
     text-align: center;
-
 }
+
 .headline2 {
     justify-content: center;
     font-family: 'Jost', sans-serif;
-    font-weight: bold;
+    font-weight: ExtraBold 800;
     text-align: center;
-    font-size: 16pt;
+    font-size: 23pt;
 }
 
 .mission-statement {
