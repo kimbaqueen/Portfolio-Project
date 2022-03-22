@@ -47,13 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-link {
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: center;
     font-family: 'Jost', sans-serif;
     color: #000;
     text-decoration: none;
     transition: 0.6s;
     cursor: pointer;
+    font-size: 14pt;
+    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -202,7 +204,7 @@ padding: 20px 20px 40px 30px;
 }
 
 .footer-logo {
-    height: 70px;
+    height: 75px;
 }
 
 .social-media-links {
