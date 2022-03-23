@@ -95,10 +95,7 @@ body {
 }
 
 .top-container {
-    background-image: radial-gradient(
-        rgba(0, 0, 0, 0.267),
-        rgba(0, 0, 0, 0.267)
-      ),
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.267),rgba(0, 0, 0, 0.11)),
       url(assets/map.jpg);
     background-repeat: no-repeat;
     overflow: hidden;
@@ -107,7 +104,7 @@ body {
     height: 350px;
     z-index: -1;
     color: #fff;
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 3px #000;
     font-family: 'Noto Serif Display', serif;
     font-weight: bolder;
     font-size: 32pt;
@@ -130,6 +127,7 @@ body {
 
 .mission-statement {
     background-color: rgba(252, 230, 197, 0.774);
+    background-image: linear-gradient(to bottom right, #fce6c5c5, #fff);
     color: #000;
     display: flex; 
     flex-direction: column;
@@ -243,6 +241,7 @@ body {
 
 .bottom-container {
     background-color: #fce6c5c5;
+    background-image: linear-gradient(to bottom left, #fce6c5c5, #fff);
     color: #000;
     display: flex;
     justify-content: space-between;
@@ -280,7 +279,7 @@ body {
 
 .Email-Submit-Button{
     height: inherit;
-    background-color: #21803a86;
+    background-color: #21803aa9;
     padding: 5px 20px;
     text-align: center;
     justify-content: center;

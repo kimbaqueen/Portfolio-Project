@@ -93,17 +93,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-.main-container {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 100px;
-    color: #000;
+.gallery {
+    padding: 0 0 4rem 0;
+  }
+  
+  .img-container {
     width: 100%;
-    position: relative;
-}
+    height: 500px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .img {
+      width: 100%;
+    height: 500px;
+      object-fit: cover;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .img-content-hover {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    display: none;
+    padding: 1rem;
+    background: white;
+    font-weight: 400;
+    margin-top: 1.25rem;
+    margin-left: -2rem;
+  }
+  
+  .title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 
+  .category {
+    font-size: 1rem;
+    color: gray;
+  }
+  
+  .img-content {
+    display: none;
+  }
 
 
 .footer-wrapper {
