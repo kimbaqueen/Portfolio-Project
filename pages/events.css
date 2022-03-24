@@ -101,6 +101,7 @@ body {
     align-content: center;
     margin: inherit;
     padding-top: 90px;
+    padding-bottom: 10px;;
     background-color: #fff;
     background-image: linear-gradient(to bottom right, #fce6c5c5, #fff);
 }
@@ -153,7 +154,16 @@ body {
     height: auto;
 }
 
+.remix-conf {
+    object-fit: contain;
+    height: auto;
+}
 .cybersecurity {
+    object-fit: contain;
+    height: auto;
+}
+
+.summit-2022 {
     object-fit: contain;
     height: auto;
 }
