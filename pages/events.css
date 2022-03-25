@@ -103,7 +103,6 @@ body {
     padding-top: 90px;
     padding-bottom: 10px;;
     background-color: #fff;
-    background-image: linear-gradient(to bottom right, #fce6c5c5, #fff);
 }
 
 .flex-row {
@@ -187,9 +186,11 @@ body {
 }
 
 .event-link:hover {
-    color: #248d40f3;
     letter-spacing: 3px;
-    text-shadow: 3px 3px rgb(250, 204, 174);
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .footer-wrapper {

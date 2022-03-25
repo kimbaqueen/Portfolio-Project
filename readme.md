@@ -9,4 +9,4 @@ Considerations:
 I started a javascript extension file but was not able to complete the coding. I plan to continue learning more coding skills and update the site with the correct JS so it can be fully functional!
 
 Conclusion:
-I'm amazed how much we learned in so little time and am very excited to start my next bootcamp to continue learning more tech skills!
+I'm amazed how much we learned in so little time and am very excited to start my next bootcamp to continue learning more tech skills! Additionally, I plan to keep updating this site with new skills I learn. It' so important to me to advocate for under-represented communities, build confidence, mentor, and help others change the trajectory of their path. We can all do hard things! 
